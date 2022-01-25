@@ -353,7 +353,6 @@ ostream& operator << (ostream& os, const MyVector& v)
 
 istream& operator >> (istream& os, MyVector& v)
 {
-	cout << "Enter the number of array elements: ";
-	os >> v.size;
+	cout << "Implementation will be added in the future ";
 	return os;
 }
